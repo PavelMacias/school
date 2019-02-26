@@ -1,0 +1,77 @@
+html{
+font-size:  10px;
+}
+body{
+  font-size: 15px;
+}
+.div{
+  font-size: 15px;
+  border: 2px solid black;
+}
+.margin{
+  margin: 70px;
+  border: 1px solid #4CAF50;
+}
+.padding{
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+
+#p1{
+  font-size: 18px;
+}
+#p2{
+  font-size: 2em;
+}
+#p3{
+  font-size: 2ex;
+}
+#p4{
+  font-size: 2rem;
+}
+#in{
+  font-size: .5in;
+}
+#cm{
+  font-size: 1.27cm;
+}
+#mm{
+  font-size: 10mm
+}
+#pt{
+  font-size: 15pt;
+}
+#pc{
+  font-size: 2pc;
+}
+#por{
+  font-size: 200%;
+}
+#rgbd{
+  background-color: rgb(255, 89, 179);
+}
+#rgbh{
+  background-color:#047efe;
+}
+#rgbp{
+  background-color:hsl(120, 100%, 39%);
+}
+#hsla{
+  background-color: hsla(120,100%,50%,0.9)
+}
+#hsla2{
+  background-color: hsla(120,100%,50%,0.5)
+}
+#hsla3{
+  background-color: hsla(120,100%,50%,0.2)
+}
+
+#rgba{
+  background-color:rgba(0,0,255,1.2)
+}
+#rgba2{
+  background-color:rgba(0,0,255,0.8)
+}
+#rgba3{
+  background-color:rgba(0,0,255,0.4)
+}
