@@ -32,3 +32,9 @@ document.getElementById("form4").onsubmit = (e) =>{
 
     document.getElementById("postorder").innerHTML = arbol.postOrder(arbol.raiz)
 }
+document.getElementById("form5").onsubmit = (e) =>{
+    e.preventDefault()
+    let nodo = new Nodo(document.getElementById('rNum').valueAsNumber)
+    arbol.search(arbol.raiz,nodo)
+   // console.log(arbol.search(arbol.raiz,nodo))
+}
